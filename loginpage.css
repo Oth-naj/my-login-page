@@ -1,0 +1,107 @@
+/* inputs inside the main div */
+.container input{
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* the main div decoration */
+.container{
+    width: 500px;
+    border: none;
+    text-align: center;
+    margin-top: 80px;
+    background-color:rgb(180, 221, 220);
+    border-radius: 10px;
+}
+/* body decoration (background) */
+.body{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background: url(https://images.unsplash.com/photo-1492138623748-a1b1f758a762?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTZ8fHRlY2glMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+}
+/* login title */
+#login{
+    text-align: center;
+    text-decoration: underline;
+}
+/* username  and password input decoration */
+.username{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+.pass{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+.repass{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+/* checkbox decoration */
+.check a{
+    margin-left: 70px;
+    text-decoration: none;
+    color: black;
+}
+/* sign in button decoration */
+.sign{
+    width: 80%;
+    height: 38px;
+    margin-left: 6px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(101, 230, 101);
+    font-family:arial ;
+    font-weight:bold ;
+    color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+/* first two social buttons decoration */
+.social1 button{
+    width: 170px;
+    height: 35px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* secound two social buttons decoration */
+.social2 button{
+    width: 170px;
+    height: 35px;
+    border: none;
+    margin-top: 0%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* social buttons color */
+.fb{
+    background-color:rgb(24,119,242);
+}
+.gg{
+    background-color: rgb(219, 68, 55);
+}
+.li{
+    background-color: #0072BB;
+}
+.git{
+    background-color: grey;
+}
+/* question paragraphe deco */
+.question {
+    font-size:  15px; 
+    text-align: center;
+    color: green;
+    cursor: pointer;
+
+}
+/* footer decoration */
+.para{
+    font-size: 10px;
+    text-align: center;
+}
